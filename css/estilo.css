@@ -22,7 +22,7 @@ body {
     flex: 20%;
     margin-left: 10%;
     /* border: 1px solid red; */
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1 {
@@ -62,4 +62,52 @@ body {
 #botao:hover {
     border: none;
     background: #ff2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* background: greenyellow; */
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4a;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid blue; */
+    text-align: center;
 }
