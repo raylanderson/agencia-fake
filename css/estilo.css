@@ -2,8 +2,7 @@
 
 * {
     box-sizing: border-box;
-}
-
+}  
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -110,4 +109,37 @@ body {
     flex: 40%;
     /* border: 1px solid blue; */
     text-align: center;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid   ;
 }
