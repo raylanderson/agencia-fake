@@ -15,6 +15,8 @@ body {
     background: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -68,7 +70,8 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    /* background: greenyellow; */
+    background: white;
+    padding-top: 100px;
 }
 
 .headline {
@@ -182,4 +185,10 @@ footer {
     font-family: 'Lobster', sans-serif;
     color: white;
     font-size: 34px;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
